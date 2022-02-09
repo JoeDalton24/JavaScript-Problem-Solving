@@ -8,7 +8,7 @@
 const containsNearbyAlmostDuplicate = function (nums, k, t) {
   if (!Array.isArray(nums) || typeof k != "number" || typeof t != "number")
     return false;
-
+ 
   const LENGTH_OF_ARRAY = nums.length;
 
   for (let index = 0; index < LENGTH_OF_ARRAY; index += 1) {
