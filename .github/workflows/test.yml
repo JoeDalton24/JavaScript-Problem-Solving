@@ -1,0 +1,7 @@
+name: My Firts Action
+on:[push]
+jobs:
+  run-on:ubuntu-latest
+  steps:
+    -run:echo "hello world"
+    -run:echo "this is sequentiel"
